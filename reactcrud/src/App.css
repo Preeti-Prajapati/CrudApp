@@ -1,0 +1,66 @@
+.table {
+  border: 1px solid grey;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.rowheader {
+  background-color: green;
+  color: white;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1;
+  border-left: 1px solid grey;
+  padding: 10px;
+}
+
+.column:nth-child(1) {
+  flex: 1;
+  border-left: 0px solid red;
+}
+.btn-add{
+  display: flex;
+  justify-content: right;
+ margin: 20px 0px;
+}
+.add{
+  color: white;
+  background-color: green; 
+  padding: 10px 20px;
+  border-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+.btn-edit{
+background-color: aqua;
+
+}
+.btn-delete{
+  background-color: red;
+  }
+  .btn-view{
+    background-color: tomato;
+    }
+    .card{
+      background-color: rgb(217, 229, 239);
+      height: 500px;
+      width: 400px;
+      margin: auto;
+      box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    }
+    .input{
+      background-color : white;
+      width:300px;
+       display:flex ;
+       
+       margin-top:20px;
+       margin-bottom:20px
+    }
+    
